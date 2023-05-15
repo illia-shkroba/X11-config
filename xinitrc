@@ -11,9 +11,9 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 [ -f "$usermodmap" ] && xmodmap "$usermodmap"
 
 if [ -d /etc/X11/xinit/xinitrc.d ]; then
-	for f in /etc/X11/xinit/xinitrc.d/*.sh; do
-		[ -x "$f" ] && . "$f"
-	done
+  for f in /etc/X11/xinit/xinitrc.d/*.sh; do
+    [ -x "$f" ] && source "$f"
+  done
 fi
 
 exec xcompmgr &
