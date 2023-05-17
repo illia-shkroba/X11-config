@@ -17,4 +17,4 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 
 exec xcompmgr &
-exec xmonad
+exec xmonad-x86_64-linux
