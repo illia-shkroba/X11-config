@@ -1,5 +1,8 @@
+*.font: JetBrainsMonoNerdFontMono:pixelsize=15:antialias=true:autohint=true
+! use `fc-list` to list available fonts
+! lookup font config in `man fonts-conf`
+
 ! Dracula Xresources palette
-*.font: mono:pixelsize=14:antialias=true:autohint=true
 *.alpha: 0.98
 *.foreground: #F8F8F2
 *.background: #282A36
