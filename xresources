@@ -3,7 +3,7 @@
 ! lookup font config in `man fonts-conf`
 
 ! Dracula Xresources palette
-*.alpha: 0.98
+*.alpha: 1.0
 *.foreground: #F8F8F2
 *.background: #282A36
 *.color0:     #000000
