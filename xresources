@@ -1,4 +1,4 @@
-*.font: JetBrainsMonoNerdFontMono:pixelsize=15:antialias=true:autohint=true
+*.font: JetBrainsMonoNLNerdFontMono:pixelsize=15:antialias=true:autohint=true
 ! use `fc-list` to list available fonts
 ! lookup font config in `man fonts-conf`
 
