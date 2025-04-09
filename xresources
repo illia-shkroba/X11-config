@@ -1,6 +1,7 @@
+! Use `fc-list` to list available fonts.
+! Lookup font config in `man fonts-conf`.
+! Be sure to run `xrdb "$XDG_CONFIG_HOME/X11/xresources"` after modifying *xresources*.
 *.font: JetBrainsMonoNLNerdFontMono:pixelsize=15:antialias=true:autohint=true
-! use `fc-list` to list available fonts
-! lookup font config in `man fonts-conf`
 
 *.alpha: 1.0
 *background: #1e1e2e
