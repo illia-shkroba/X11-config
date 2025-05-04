@@ -5,6 +5,10 @@ usermodmap="$XDG_CONFIG_HOME/X11/.Xmodmap"
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
+# `toggle-language` should be called before `xmodmap`, because it uses
+# `setxkbmap`. The `setxkbmap` resets `xmodmap` settings.
+toggle-language
+
 [ -f "$sysresources" ] && xrdb -load "$sysresources"
 [ -f "$sysmodmap" ] && xmodmap "$sysmodmap"
 [ -f "$userresources" ] && xrdb -merge "$userresources"
